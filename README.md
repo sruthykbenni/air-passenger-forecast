@@ -29,20 +29,17 @@ It includes:
 
 **Clone the repository:**
 
-``bash
-git clone https://github.com/your-username/air-passenger-forecast.git
+``git clone https://github.com/your-username/air-passenger-forecast.git
 cd air-passenger-forecast``
 
 **Install required Python libraries:**
 
-bash
-pip install torch pandas numpy matplotlib scikit-learn
+``pip install torch pandas numpy matplotlib scikit-learn``
 
 
 **Run the script:**
 
-bash
-python air_passenger_forecast_lstm.py
+``python air_passenger_forecast_lstm.py``
 
 
 The script will:
