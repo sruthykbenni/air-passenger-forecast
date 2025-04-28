@@ -1,18 +1,20 @@
-Airline Passenger Forecasting with LSTM
+#**Airline Passenger Forecasting with LSTM**
+
 This project uses a PyTorch LSTM (Long Short-Term Memory) model to predict the number of airline passengers based on historical monthly data (AirPassengers.csv).
+
 It includes:
 
-Feature engineering (seasonality encoding using sin/cos transformations),
+*Feature engineering (seasonality encoding using sin/cos transformations),
 
-Scaling,
+*Scaling,
 
-Sequence modeling,
+*Sequence modeling,
 
-Training,
+*Training,
 
-Forecasting the next 12 months,
+*Forecasting the next 12 months,
 
-And visualizations.
+*And visualizations.
 
 📂 Project Structure
 air_passenger_forecast_lstm.py — Main Python script containing:
