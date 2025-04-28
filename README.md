@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://images.unsplash.com/photo-1549880184-7c39e45b3f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Air Travel Banner" width="800"/>
-</p>
-
 # ✈️ Airline Passenger Forecasting with LSTM
 
 This project uses a **PyTorch LSTM (Long Short-Term Memory)** model to predict the number of airline passengers based on historical monthly data (`AirPassengers.csv`).
@@ -36,3 +32,49 @@ It includes:
 ```bash
 git clone https://github.com/your-username/air-passenger-forecast.git
 cd air-passenger-forecast
+
+**Install required Python libraries:**
+
+bash
+pip install torch pandas numpy matplotlib scikit-learn
+
+
+**Run the script:**
+
+bash
+python air_passenger_forecast_lstm.py
+
+
+The script will:
+- Train the model
+- Visualize the actual vs predicted values
+- Forecast passenger numbers for the next 12 months
+
+---
+
+## 📊 Output Example
+
+- 📉 Plot comparing **actual** and **predicted** passengers
+- 🔮 Forecast plot for the **next 12 months** (shown in red dashed line)
+
+---
+
+## 📚 Techniques Used
+
+- Time Series Forecasting
+- Sequence Modeling with LSTM
+- Feature Engineering (seasonality using sine and cosine)
+- Min-Max Scaling
+- PyTorch Deep Learning
+- Matplotlib Visualization
+
+---
+
+## ✨ Future Improvements
+
+- 🔧 Hyperparameter tuning for better accuracy
+- 📅 Adding more features (holidays, events)
+- 🛑 Implement early stopping during training
+- 📦 Export trained model for deployment
+
+---
