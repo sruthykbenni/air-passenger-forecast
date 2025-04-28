@@ -29,9 +29,9 @@ It includes:
 
 **Clone the repository:**
 
-```bash
+``bash
 git clone https://github.com/your-username/air-passenger-forecast.git
-cd air-passenger-forecast
+cd air-passenger-forecast``
 
 **Install required Python libraries:**
 
